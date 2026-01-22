@@ -1,0 +1,146 @@
+<html>
+    <head>
+        <title>Eleven Labs</title>
+        <style>
+
+             @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+            body{
+                padding: 0;
+                margin: 0;
+                height: 100vh;
+                width: auto;
+                background-color: #fff;
+                font-family: "Lato", sans-serif; 
+                font-weight: 600;
+                font-style: normal;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+            }
+
+            .main{
+                padding: 20px;
+                width:90%;
+                height: max-content;
+                min-width:600px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                flex: 1;
+            }
+
+            .card{
+                display: flex;
+                flex-direction:column;
+                justify-content:center;
+                gap: 5px;
+                font-weight: bold;
+            }
+
+            .heading{
+                display: flex;
+                justify-content: center;
+                font-size: x-large;
+                margin: 100px 0px 60px 0px;
+            }
+            .inputs{
+               background-color: #fff;
+               border-radius: 10px;
+               min-width: 360px;
+               width: auto;
+               font-weight: 400;
+               padding: 15px;
+               border: 1px solid rgb(150, 148, 148);
+            }
+
+            .btns{
+                background-color: #fff;
+               border-radius: 10px;
+               min-width: 360px;
+               width: auto;
+               padding: 15px;
+               cursor: pointer;
+               border: solid;
+               border: 1px solid rgb(164, 163, 163);
+            }
+
+            .inputs:hover{
+                background-color: rgb(248, 248, 248);
+            }
+
+            .btns:hover{
+                background-color: rgb(248, 248, 248);
+            }
+            .alr{
+                display: flex;
+                gap:-20px;
+                justify-content: center;
+            }
+
+            .footer{
+                display: flex;
+                justify-content: center;
+                background-color: #acaaaa;
+                width: auto;
+                padding: 20px;       
+                min-width: 600px;
+                 }
+            .links{
+                color: #5b5454;
+            }
+
+            .footer-p{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            a{
+                text-decoration: none;
+                margin:0px 5px;
+            }
+            .gg{
+                border:1px solid rgb(164, 163, 163);
+                position: relative;
+                padding: 15px;
+                border-radius: 10px;
+                text-align: center;
+                
+            }
+            .google-img{
+                height: 26px;
+                position: absolute;
+                left: 50px;
+                align-self: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+
+            <div class="card">
+                <div class="heading">
+                    <span>IIEleven Labs</span>
+                </div>
+                <h2 style="display: flex;align-self: center;">create an account</h2>
+                 <div class="gg">
+                  <a href="#"><img src="google.jpeg" alt="" class="google-img"
+                   display: flex;justify-self: left;align-items: center; position: relative;align-self: start;"><span style="text-decoration: none;color: black;">Sign up with Google</span></a>
+                </div>
+                 <label>Email</label>
+                 <input type="email" class="inputs">
+                 <label>password</label>
+                 <input type="password" class="inputs">
+                 <button class="btns" style="margin-top: 20px;">Sign up</button>
+                 <br>
+                 <span class="alr">Already registered?<a href="#" class="links">Sign up</a></span>
+            </div>
+
+        </div>
+        <div class="footer-p">
+            <div class="footer">By continuing, you agree to our <a href="#" class="links">Terms of Service</a> and <a href="#" class="links">Privacy Policy.</a>
+            </div>
+        </div>
+    </body>
+</html>
